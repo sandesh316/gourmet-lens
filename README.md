@@ -1,11 +1,20 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# 🍳 Gourmet Lens
 
-  <h1>Built with AI Studio</h2>
+A Neo-Brutalist menu scanner that uses Google Gemini to visualize unfamiliar international dishes.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Deployment
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### 1. Environment Variables
+You MUST set the following environment variable in your hosting provider (Vercel, Netlify, etc.):
+- `API_KEY`: Your Google Gemini API Key from [Google AI Studio](https://aistudio.google.com/).
 
-</div>
+### 2. Manual Setup
+If you want to run this locally:
+1. `npm install`
+2. `export API_KEY=your_key_here`
+3. `npm run dev`
+
+### 3. Build Settings
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`

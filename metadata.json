@@ -1,0 +1,7 @@
+{
+  "name": "Gourmet Lens - Menu Scanner",
+  "description": "A smart menu scanner that visualizes unfamiliar dishes like Shakshuka or Burrata using AI, helping you order with confidence at European cafes.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
